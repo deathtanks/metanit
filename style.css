@@ -1,0 +1,195 @@
+#back {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+header {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+    max-width: 1400px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    overflow-x: hidden;
+    background-color: #e5e5e5;
+
+
+}
+
+article {
+    align-content: center;
+    background-color: #F7F7FA;
+    min-height: 700px;
+}
+
+#topmenu li {
+    font-size: 9px;
+    padding: 12px 0px 12px 0px;
+    width: 99px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    display: inline-block;
+    background: -moz-linear-gradient(top, #e4e4e4, #ccc);
+    height: auto;
+    margin-left: -6px;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 3px 6px -3px rgba(0, 0, 0, 0.25);
+}
+
+#topmenu li a {
+    text-decoration: none;
+    position: relative;
+    margin: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    color: black;
+    font-size: 12px;
+}
+
+#topmenu {
+    height: 36px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: right;
+    text-align: center;
+    background: -moz-linear-gradient(top, #e4e4e4, #ccc);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5), 0 3px 6px -3px rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(120, 120, 120, 0.15);
+    border-bottom: 1px solid rgba(120, 120, 120, 0.15);
+}
+
+#leftmenu {
+    list-style: none;
+    float: left;
+    display: block;
+    width: 165px;
+    margin: 0px;
+    padding: 0px;
+    background: #f0f0f0;
+
+}
+
+#leftmenu li {
+    border-bottom: 1px solid #ccc;
+    height: 25px;
+    padding-top: 15px;
+}
+
+#leftmenu li a {
+    text-decoration: none;
+    padding-top: 15px;
+    color: black;
+    padding-left: 10px;
+    font: 12px verdana;
+}
+
+#artic {
+    margin-left: 166px;
+    margin-right: 166px;
+    margin-top: auto;
+    font-size: 13px;
+    line-height: 160%;
+    width: auto;
+    border: 1px solid #ccc;
+}
+
+#mainleft {
+    display: inline-block;
+    width: 46%;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 1.5%;
+}
+
+#mainright {
+    display: inline-block;
+    width: 48%;
+    margin-left: 2%;
+}
+
+#artic h2 {
+    border-bottom: 1px solid #ccc;
+    height: 5%;
+    width: 90%;
+    text-align: center;
+    margin-left: 8px;
+    font-size: 23px;
+}
+
+#artic a {
+    font-weight: bold;
+    color: navy;
+    font-size: 13px;
+}
+
+#artic time {
+    font-size: 11px;
+    line-height: 10px;
+    margin-left: 4px;
+}
+
+#foot {
+    font-size: 8.5pt;
+    clear: both;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+#foot a {
+    color: black;
+}
+
+
+.logo {
+    background: #f0f0f0;
+    margin-top: 0;
+    font-size: 12px;
+    padding-left: 65px;
+    color: #444;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.logo h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0px;
+}
+
+.logo h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo h1 a {
+    color: black;
+}
+
+.fa li {
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+
+
